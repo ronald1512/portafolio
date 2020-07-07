@@ -28,8 +28,7 @@
 	],
 	"education": [{
 			"university": "Universidad de San Carlos de Guatemala",
-			"degree": "BS",
-			"gpa": "GPA",
+			"degree": "Computer Science and Systems Engineering",
 			"fromDate": "2017",
 			"toDate": "2021"
 		}
