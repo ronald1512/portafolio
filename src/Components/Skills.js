@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import { faHtml5, faAngular, faReact, faNodeJs, faNpm, faYarn, faJava, faAws } from "@fortawesome/free-brands-svg-icons";
 
 class Skills extends Component{
     constructor(props){
@@ -13,8 +13,27 @@ class Skills extends Component{
                 <div className="w-100">
                     <h2 className="mb-5">Skills</h2>
                     <div className="subheading mb-3">Programming Languages &amp; Tools</div>
-                    <div className="row">
-                        {
+                    <ul className="list-inline dev-icons">
+                        <li className="list-inline-item">{faHtml5}</li>
+                        <li className="list-inline-item">{faAngular}</li>
+                        <li className="list-inline-item">{faReact}</li>
+                        <li className="list-inline-item">{faNodeJs}</li>
+                        <li className="list-inline-item">{faNpm}</li>
+                        <li className="list-inline-item">{faYarn}</li>
+                        <li className="list-inline-item">{faJava}</li>
+                        <li className="list-inline-item">{faAws}</li>
+                    </ul>
+                </div>
+            </section>
+        );
+    }
+}
+
+export default Skills;
+
+
+/**
+ * {
                             this.skills.map((data, index) =>(
                                 <div key={index} className="col-6">
                                     <p className="list-item">
@@ -24,11 +43,5 @@ class Skills extends Component{
                                 </div>
                             ))
                         }
-                    </div>
-                </div>
-            </section>
-        );
-    }
-}
-
-export default Skills;
+ * 
+ */
