@@ -1,0 +1,55 @@
+{
+	"landing": {
+		"firstName": "Ronald Gabriel",
+		"lastName": "Romero González",
+		"phoneNumber": "5067-5171",
+		"bio": "Estudiante de Ingeniería en Ciencias y Sistemas en la Universidad de San Carlos de Guatemala",
+		"email": "3606169920101@ingenieria.usac.edu.gt",
+    	"linkedin": "https://www.linkedin.com/in/ronald-gabriel-romero-gonz%C3%A1lez-483a30172/",
+		"github": "https://github.com/ronald1512",
+		"facebook":"https://www.facebook.com/ronaldlolo.romero/",
+		"twitter":"https://twitter.com/Ronald_Romero15"
+	},
+	"experience": [
+		{
+				"position": "Web Developer",
+				"organization": "Company one",
+				"aboutWork": "Details about work here",
+				"fromDate": "Date of starting",
+				"toDate": "Ending Date"
+		},
+		{
+			"position": "App Developer",
+			"organization": "Company 2",
+			"aboutWork": "Details about work here",
+			"fromDate": "Date of starting",
+			"toDate": "ending date"
+		}
+	],
+	"education": [{
+			"university": "Universidad de San Carlos de Guatemala",
+			"degree": "BS",
+			"gpa": "GPA",
+			"fromDate": "2017",
+			"toDate": "2021"
+		}
+	],
+	"skills": [{
+			"name": "skill1"
+		},
+		{
+			"name": "skill2"
+		}
+	],
+	"interests": {
+		"paragraphOne": "Descriptive detail about your interests for paragraph one",
+		"paragraphTwo": "Descriptive detail about your interests for paragraph two"
+	},
+	"awards": [{
+			"awardDetail": "Your first award"
+		},
+		{
+			"awardDetail": "Your second award"
+		}
+	]
+}
