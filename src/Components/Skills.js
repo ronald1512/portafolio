@@ -14,14 +14,14 @@ class Skills extends Component{
                     <h2 className="mb-5">Skills</h2>
                     <div className="subheading mb-3">Programming Languages &amp; Tools</div>
                     <ul className="list-inline dev-icons">
-                        <li className="list-inline-item">{faHtml5}</li>
-                        <li className="list-inline-item">{faAngular}</li>
-                        <li className="list-inline-item">{faReact}</li>
-                        <li className="list-inline-item">{faNodeJs}</li>
-                        <li className="list-inline-item">{faNpm}</li>
-                        <li className="list-inline-item">{faYarn}</li>
-                        <li className="list-inline-item">{faJava}</li>
-                        <li className="list-inline-item">{faAws}</li>
+                        <li className="list-inline-item"><FontAwesomeIcon icon={faHtml5} /></li>
+                        <li className="list-inline-item"><FontAwesomeIcon icon={faAngular} /></li>
+                        <li className="list-inline-item"><FontAwesomeIcon icon={faReact} /></li>
+                        <li className="list-inline-item"><FontAwesomeIcon icon={faNodeJs} /></li>
+                        <li className="list-inline-item"><FontAwesomeIcon icon={faNpm} /></li>
+                        <li className="list-inline-item"><FontAwesomeIcon icon={faYarn} /></li>
+                        <li className="list-inline-item"><FontAwesomeIcon icon={faJava} /></li>
+                        <li className="list-inline-item"><FontAwesomeIcon icon={faAws} /></li>
                     </ul>
                 </div>
             </section>
