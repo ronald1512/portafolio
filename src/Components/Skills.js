@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faHtml5, faAngular, faReact, faNodeJs, faNpm, faYarn, faJava, faAws } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5, faAngular, faReact, faNodeJs, faNpm, faYarn, faJava, faAws, faJs,faPython } from "@fortawesome/free-brands-svg-icons";
 
 class Skills extends Component{
     constructor(props){
@@ -22,6 +22,8 @@ class Skills extends Component{
                         <li className="list-inline-item"><FontAwesomeIcon icon={faYarn} /></li>
                         <li className="list-inline-item"><FontAwesomeIcon icon={faJava} /></li>
                         <li className="list-inline-item"><FontAwesomeIcon icon={faAws} /></li>
+                        <li className="list-inline-item"><FontAwesomeIcon icon={faJs} /></li>
+                        <li className="list-inline-item"><FontAwesomeIcon icon={faPython} /></li>
                     </ul>
                 </div>
             </section>
