@@ -3,7 +3,7 @@
 		"firstName": "Ronald Gabriel",
 		"lastName": "Romero González",
 		"phoneNumber": "5067-5171",
-		"bio": "I am a student of science and systems engineering at the University of San Carlos of Guatemala.",
+		"bio": "I am a student of software engineering at Universidad de San Carlos de Guatemala.",
 		"email": "3606169920101@ingenieria.usac.edu.gt",
     	"linkedin": "https://www.linkedin.com/in/ronald-gabriel-romero-gonz%C3%A1lez-483a30172/",
 		"github": "https://github.com/ronald1512",
@@ -28,7 +28,7 @@
 	],
 	"education": [{
 			"university": "Universidad de San Carlos de Guatemala",
-			"degree": "Computer Science and Systems Engineering",
+			"degree": "Software Engineering",
 			"fromDate": "2017",
 			"toDate": "2021"
 		}
@@ -42,7 +42,7 @@
 	],
 	"interests": {
 		"paragraphOne": "I enjoy my free time exercising, reading or taking short online courses",
-		"paragraphTwo": "I am a family and friends man. I love spending time with them as much as I can."
+		"paragraphTwo": "I love spending time with family and friends as much as I can."
 	},
 	"awards": [{
 			"awardDetail": "3th Place - Universidad de San Carlos de Guatemala - Academic Excellence Award"
