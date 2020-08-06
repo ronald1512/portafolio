@@ -29,7 +29,7 @@
 	"education": [{
 			"university": "Universidad de San Carlos de Guatemala",
 			"degree": "Software Engineering",
-			"fromDate": "2017",
+			"fromDate": "2017", 
 			"toDate": "2021"
 		}
 	],
