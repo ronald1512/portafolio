@@ -65,5 +65,27 @@
 		{
 			"awardDetail": "IT Security Certification: Defense against the digital dark arts - Google"
 		}
-	]
+	], 
+	"comments_awards": [{
+		"awardDetail": "3th Place - Universidad de San Carlos de Guatemala - Academic Excellence Award"
+	},
+	{
+		"awardDetail": "Machine Learning Certification - Standford University"
+	},
+	{
+		"awardDetail": "Python Basics Certification - University of Michigan"
+	},
+	{
+		"awardDetail": "HTML, CSS and Javascript for Web Developers Certification - Johns Hopkins University"
+	},
+	{
+		"awardDetail": "Getting Started with AWS Machine Learning Certification - Amazon Web Services"
+	},
+	{
+		"awardDetail": "Essential Google Cloud Infrastructure: Foundation - Google Cloud"
+	},
+	{
+		"awardDetail": "IT Security Certification: Defense against the digital dark arts - Google"
+	}
+]
 }
