@@ -1,7 +1,7 @@
 import React, { Component } from 'react';     /** Components in files: To do that, create a new file with a .js file extension and put the code inside it:
                                                   Note that the file must start by importing React (as before), and it has to end with the statement export default Car;.
                                               */
-import image from '../Assets/profile.jpg';
+import image from '../Assets/foto-formal.jpeg';
 
 class Sidebar extends Component { //The component's name must start with an upper case letter
   // The constructor function is where you initiate the component's properties.

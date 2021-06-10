@@ -15,10 +15,19 @@ class Awards extends Component {
                     <ul className="fa-ul mb-0">
                         {
                             this.awards.map((data, index) => (
-                                <li key={index}>
-                                    <FontAwesomeIcon icon={faAward} color="#ffc107" />
-                                    <span className="ml-2"> {data.awardDetail} </span>
-                                </li>
+                                data.link
+                                    ?
+                                    <a href={data.link} target="_blank">
+                                        <li key={index}>
+                                            <FontAwesomeIcon icon={faAward} color="#ffc107" />
+                                            <span className="ml-2"> {data.awardDetail} </span>
+                                        </li>
+                                    </a>
+                                    :
+                                    <li key={index}>
+                                        <FontAwesomeIcon icon={faAward} color="#ffc107" />
+                                        <span className="ml-2"> {data.awardDetail} </span>
+                                    </li>
                             ))
                         }
                     </ul>

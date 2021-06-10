@@ -31,3 +31,13 @@ If you want to deploy a react app using Github pages and a custom Namecheap doma
 2. Make sure to write "homepage":"http://yourusername.github.io/" on package.json
 3. Add CNAME file into the **PUBLIC** folder of react. 
 
+## Steps to deploy app in gh-pages
+ * npm install gh-pages
+ * git remote add origin repo_url
+ * add homepage url   -> http://username.github.io/repo_name
+ * add:
+ *      "predeploy":"npm run build",
+        "deploy": "gh-pages -d build"
+
+  * `npm run deploy`
+

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {useState } from 'react';
 import Sidebar from './Components/Sidebar';
 import Landing from './Components/Landing';
 import Experience from './Components/Experience';
@@ -8,51 +8,30 @@ import Interests from './Components/Interests';
 import Awards from './Components/Awards';
 import profileData from './profileData.json';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
 
-    this.state = {
-      landingData : profileData.landing,
-      experience : profileData.experience,
-      education : profileData.education,
-      skills : profileData.skills,
-      interests : profileData.interests,
-      awards : profileData.awards
-    }
-  }
-  render() {
-    return (
-      <div className="App">
-        <Sidebar sidebarData={this.state.landingData} />
+export const App = () => {
+  const [landingData] = useState(profileData.landing);
+  const [experience] = useState(profileData.experience);
+  const [education] = useState(profileData.education);
+  const [skills] = useState(profileData.skills);
+  const [interests] = useState(profileData.interests);
+  const [awards] = useState(profileData.awards);
+  return (
+    <div className="App">
+      <Sidebar sidebarData={landingData} />
         <div className="container-fluid p-0">
-          <Landing landingData={this.state.landingData} />
+          <Landing landingData={landingData} />
           <hr className="m-0" />
-          <Experience experience={this.state.experience} />
+          <Experience experience={experience} />
           <hr className="m-0" />
-          <Education education={this.state.education}/>
+          <Education education={education}/>
           <hr className="m-0" />
-          <Skills skills={this.state.skills} />
+          <Skills skills={skills} />
           <hr className="m-0" />
-          <Interests interests={this.state.interests} />
+          <Interests interests={interests} />
           <hr className="m-0" />
-          <Awards awards={this.state.awards} />
+          <Awards awards={awards} />
         </div>
-      </div>
-    );
-  }
+    </div>
+  )
 }
-
-export default App;
-
-
-/**Steps:
- * npm install gh-pages
- * git remote add origin repo_url
- * add homepage url   -> http://username.github.io/repo_name
- * add:
- *      "predeploy":"npm run build",
-        "deploy": "gh-pages -d build"
-
-  npm run deploy
- *  */

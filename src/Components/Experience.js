@@ -12,7 +12,7 @@ class Experience extends Component {
       <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div className="w-100">
           <h2 className="mb-5">Experience</h2>
-          On progress...
+          Open to job opportunities...
         </div>
       </section>
     );
