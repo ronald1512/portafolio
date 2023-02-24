@@ -67,6 +67,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  scroll-behavior: smooth !important;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -1968,6 +1969,11 @@ pre code {
   }
   .table-responsive-lg > .table-bordered {
     border: 0;
+  }
+
+  .img-fluid{
+    max-height: 190px !important;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
 }
 @media (max-width: 1199.98px) {

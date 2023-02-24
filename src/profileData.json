@@ -1,13 +1,13 @@
 {
 	"landing": {
-		"firstName": "Ronald Gabriel",
-		"lastName": "Romero González",
+		"firstName": "Ronald",
+		"lastName": "Romero",
 		"phoneNumber": "5067-5171",
-		"bio": "I am a student of software engineering at Universidad de San Carlos de Guatemala.",
+		"bio": "I am a technology enthusiast, dreaming big and working hard",
 		"email": "ron.romerog@gmail.com",
-    	"linkedin": "https://www.linkedin.com/in/ronald-gabriel-romero-gonz%C3%A1lez-483a30172/",
+    	"linkedin": "https://www.linkedin.com/in/ronald-romero-483a30172/",
 		"github": "https://github.com/ronald1512",
-		"facebook":"https://www.facebook.com/ronaldlolo.romero/",
+		"facebook":"https://www.facebook.com/ronaldlolo.romero",
 		"twitter":"https://twitter.com/Ronald_Romero15"
 	},
 	"experience": [

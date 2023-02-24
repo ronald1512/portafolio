@@ -1,7 +1,6 @@
 import React, { Component } from 'react';     /** Components in files: To do that, create a new file with a .js file extension and put the code inside it:
                                                   Note that the file must start by importing React (as before), and it has to end with the statement export default Car;.
                                               */
-import image from '../Assets/foto-formal.jpeg';
 
 class Sidebar extends Component { //The component's name must start with an upper case letter
   // The constructor function is where you initiate the component's properties.
@@ -40,7 +39,7 @@ class Sidebar extends Component { //The component's name must start with an uppe
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
             <span className="d-block d-lg-none">{this.state.firstName} {this.state.lastName}</span>
             <span className="d-none d-lg-block">
-              <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={image} alt="" />
+              <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="./images/profile.jpeg" alt="" />
             </span>
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

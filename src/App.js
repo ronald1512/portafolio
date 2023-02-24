@@ -19,7 +19,7 @@ export const App = () => {
   return (
     <div className="App">
       <Sidebar sidebarData={landingData} />
-        <div className="container-fluid p-0">
+        <div className="container-fluid">
           <Landing landingData={landingData} />
           <hr className="m-0" />
           <Experience experience={experience} />
