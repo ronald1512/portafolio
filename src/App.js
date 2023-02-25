@@ -6,7 +6,7 @@ import Education from './Components/Education';
 import Skills from './Components/Skills';
 import Interests from './Components/Interests';
 import Awards from './Components/Awards';
-import profileData from './profileData.json';
+import profileData from './profileData.js';
 
 
 export const App = () => {

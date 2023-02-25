@@ -17,7 +17,7 @@ class Awards extends Component {
                             this.awards.map((data, index) => (
                                 data.link
                                     ?
-                                    <a href={data.link} target="_blank">
+                                    <a href={data.link} target="_blank" rel="noopener noreferrer">
                                         <li key={index}>
                                             <FontAwesomeIcon icon={faAward} color="#ffc107" />
                                             <span className="ml-2"> {data.awardDetail} </span>
