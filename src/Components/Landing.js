@@ -32,9 +32,6 @@ class Landing extends Component {
                         <a className="social-icon" target="_blank" href={this.landingData.github}>
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
-                        <a className="social-icon" target="_blank" href={this.landingData.facebook}>
-                            <FontAwesomeIcon icon={faFacebook} />
-                        </a>
                         <a className="social-icon" target="_blank" href={this.landingData.instagram}>
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>

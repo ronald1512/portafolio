@@ -12,7 +12,6 @@ export default {
 		"email": "ron.romerog@gmail.com",
 		"linkedin": "https://www.linkedin.com/in/ronald-romero-483a30172/",
 		"github": "https://github.com/ronald1512",
-		"facebook": "https://www.facebook.com/ronaldlolo.romero",
 		"instagram": "https://www.instagram.com/_romerog"
 	},
 	"experience": [
@@ -20,7 +19,7 @@ export default {
 			"position": "Experienced Software Developer",
 			"organization": "LiiF",
 			"aboutWork": <>
-				With over 3 years of hands-on expertise in software development, I thrive on crafting intuitive UX/UI solutions. Currently, I'm dedicated to revolutionizing financial technology at <strong>LiiF</strong>, a leading fintech firm in Guatemala. Here, I dive deep into React, C#, and AWS, not to mention my proficiency in QA, E2E testing, and backend development.
+				With over 2 years of hands-on expertise in software development, I thrive on crafting intuitive UX/UI solutions. Currently, I'm dedicated to revolutionizing financial technology at <strong>LiiF</strong>, a leading fintech firm in Guatemala. Here, I dive deep into React, C#, and AWS, not to mention my proficiency in QA, E2E testing, and backend development.
 				<br />
 				<br />
 				<br />
