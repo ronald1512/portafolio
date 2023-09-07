@@ -29,8 +29,8 @@ export const App = () => {
           <Skills skills={skills} />
           <hr className="m-0" />
           <Interests interests={interests} />
-          <hr className="m-0" />
-          <Awards awards={awards} />
+          {/* <hr className="m-0" />
+          <Awards awards={awards} /> */}
         </div>
     </div>
   )

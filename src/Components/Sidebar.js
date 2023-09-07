@@ -52,7 +52,7 @@ class Sidebar extends Component { //The component's name must start with an uppe
             <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#education">Education</a></li>
             <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
             <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-            <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+            {/* <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#awards">Awards</a></li> */}
           </ul>
         </div>
       </nav>
