@@ -21,7 +21,7 @@ class Landing extends Component {
                         </h1>
                     </div>
                     <div className="subheading mb-5">
-                        <a className='mx-2' style={{ color: "#6c757d", whiteSpace: "nowrap" }} href={"tel:" + this.landingData.phoneNumber.replace("-")}><span className='mr-1' role='img' aria-label='phone'>📞</span>{this.landingData.phoneNumber}</a>
+                        <a className='mx-2' style={{ color: "#6c757d", whiteSpace: "nowrap" }} href={"tel:" + this.landingData.phoneNumber.replace("-","")}><span className='mr-1' role='img' aria-label='phone'>📞</span>{this.landingData.phoneNumber}</a>
                         <a className='mx-2' style ={{whiteSpace: "nowrap"}} href={"mailto:" + this.landingData.email}><span className='mr-1' role='img' aria-label='email'>✉️</span>{this.landingData.email}</a>
                     </div>
                     <p className="lead mb-5">{this.landingData.bio}</p>
